@@ -9,7 +9,9 @@
     "chunk_source": "Saturday, April 1st.",
     "accepted_scientific_name": "Acer saccharum",
     "family": "Sapindaceae",
-    "gbif_usage_key": 3189859
+    "gbif_usage_key": 3189859,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "March 1, 1830"
   },
   {
     "id": 1,
@@ -21,7 +23,9 @@
     "chunk_source": "Friday, 24th.",
     "accepted_scientific_name": "Symplocarpus foetidus",
     "family": "Araceae",
-    "gbif_usage_key": 2870117
+    "gbif_usage_key": 2870117,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "March 24, 1848"
   },
   {
     "id": 2,
@@ -33,7 +37,9 @@
     "chunk_source": "Friday, 24th.",
     "accepted_scientific_name": "Symplocarpus foetidus",
     "family": "Araceae",
-    "gbif_usage_key": 2870117
+    "gbif_usage_key": 2870117,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "March 24, 1848"
   },
   {
     "id": 3,
@@ -45,7 +51,9 @@
     "chunk_source": "Friday, 24th.",
     "accepted_scientific_name": "Symplocarpus foetidus",
     "family": "Araceae",
-    "gbif_usage_key": 2870117
+    "gbif_usage_key": 2870117,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "March 24, 1848"
   },
   {
     "id": 4,
@@ -57,7 +65,9 @@
     "chunk_source": "Friday, 24th.",
     "accepted_scientific_name": "Symplocarpus foetidus",
     "family": "Araceae",
-    "gbif_usage_key": 2870117
+    "gbif_usage_key": 2870117,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "March 24, 1848"
   },
   {
     "id": 7,
@@ -69,7 +79,9 @@
     "chunk_source": "Friday, 31st.",
     "accepted_scientific_name": "Hyacinthus orientalis",
     "family": "Asparagaceae",
-    "gbif_usage_key": 2772666
+    "gbif_usage_key": 2772666,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "March 31, 1848"
   },
   {
     "id": 5,
@@ -81,7 +93,9 @@
     "chunk_source": "Friday, 31st.",
     "accepted_scientific_name": "Hyacinthus orientalis",
     "family": "Asparagaceae",
-    "gbif_usage_key": 2772666
+    "gbif_usage_key": 2772666,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "March 31, 1848"
   },
   {
     "id": 9,
@@ -93,7 +107,9 @@
     "chunk_source": "Saturday, April 1st.",
     "accepted_scientific_name": "Acer saccharum",
     "family": "Sapindaceae",
-    "gbif_usage_key": 3189859
+    "gbif_usage_key": 3189859,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "April 1, 1830"
   },
   {
     "id": 11,
@@ -105,7 +121,9 @@
     "chunk_source": "Saturday, April 1st.",
     "accepted_scientific_name": "Acer saccharum",
     "family": "Sapindaceae",
-    "gbif_usage_key": 3189859
+    "gbif_usage_key": 3189859,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "April 1, 1830"
   },
   {
     "id": 6,
@@ -117,7 +135,9 @@
     "chunk_source": "Friday, 31st.",
     "accepted_scientific_name": "Vinca minor",
     "family": "Apocynaceae",
-    "gbif_usage_key": 3169707
+    "gbif_usage_key": 3169707,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "March 31, 1848"
   },
   {
     "id": 8,
@@ -129,7 +149,9 @@
     "chunk_source": "Friday, 31st.",
     "accepted_scientific_name": "Galanthus nivalis",
     "family": "Amaryllidaceae",
-    "gbif_usage_key": 2855356
+    "gbif_usage_key": 2855356,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "March 31, 1848"
   },
   {
     "id": 12,
@@ -141,7 +163,9 @@
     "chunk_source": "Saturday, April 1st.",
     "accepted_scientific_name": "Acer saccharum",
     "family": "Sapindaceae",
-    "gbif_usage_key": 3189859
+    "gbif_usage_key": 3189859,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "April 1, 1848"
   },
   {
     "id": 13,
@@ -153,7 +177,9 @@
     "chunk_source": "Friday, 6th.",
     "accepted_scientific_name": null,
     "family": null,
-    "gbif_usage_key": null
+    "gbif_usage_key": null,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "April 6, 1848"
   },
   {
     "id": 15,
@@ -165,7 +191,9 @@
     "chunk_source": "Friday, 6th.",
     "accepted_scientific_name": null,
     "family": null,
-    "gbif_usage_key": null
+    "gbif_usage_key": null,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "April 6, 1848"
   },
   {
     "id": 16,
@@ -177,7 +205,9 @@
     "chunk_source": "Friday, 6th.",
     "accepted_scientific_name": null,
     "family": null,
-    "gbif_usage_key": null
+    "gbif_usage_key": null,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "April 6, 1848"
   },
   {
     "id": 17,
@@ -189,7 +219,9 @@
     "chunk_source": "Friday, 6th.",
     "accepted_scientific_name": null,
     "family": null,
-    "gbif_usage_key": null
+    "gbif_usage_key": null,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "April 6, 1848"
   },
   {
     "id": 14,
@@ -201,7 +233,9 @@
     "chunk_source": "Friday, 6th.",
     "accepted_scientific_name": null,
     "family": null,
-    "gbif_usage_key": null
+    "gbif_usage_key": null,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "April 6, 1848"
   },
   {
     "id": 18,
@@ -213,6 +247,8 @@
     "chunk_source": "Friday, 6th.",
     "accepted_scientific_name": null,
     "family": null,
-    "gbif_usage_key": null
+    "gbif_usage_key": null,
+    "citation": "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850.",
+    "entry_date": "April 6, 1848"
   }
 ]

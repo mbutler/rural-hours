@@ -5,11 +5,32 @@ files for the frontend.
 """
 import json
 import sqlite3
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = ROOT / "data.sqlite"
 OUTPUT_DIR = ROOT / "frontend" / "public" / "data"
+
+CITATION = "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850."
+
+
+def format_entry_date(observation_date: str | None, chunk_source: str | None, day_of_year: int | None) -> str:
+    """Build human-readable entry date for citation."""
+    if observation_date:
+        try:
+            dt = datetime.strptime(observation_date[:10], "%Y-%m-%d")
+            return dt.strftime("%B %d, %Y").replace(" 0", " ")
+        except (ValueError, TypeError):
+            pass
+    if day_of_year and 1 <= day_of_year <= 365:
+        try:
+            from datetime import timedelta
+            d = datetime(1848, 1, 1) + timedelta(days=day_of_year - 1)
+            return d.strftime("%B %d, %Y").replace(" 0", " ")
+        except (ValueError, TypeError):
+            pass
+    return chunk_source or "—"
 
 
 def export_observations(conn: sqlite3.Connection) -> list[dict]:
@@ -43,6 +64,8 @@ def export_observations(conn: sqlite3.Connection) -> list[dict]:
             "accepted_scientific_name": r[7],
             "family": r[8],
             "gbif_usage_key": r[9],
+            "citation": CITATION,
+            "entry_date": format_entry_date(r[2], r[6], r[3]),
         }
         for r in rows
     ]

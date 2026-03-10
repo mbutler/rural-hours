@@ -1,8 +1,22 @@
 @import "tailwindcss";
+@import "maplibre-gl/dist/maplibre-gl.css";
 
 /* Modern Naturalist palette (from spec) */
 :root {
   --color-bg: #FAFAFA;
   --color-accent: #2C5530;
+  --color-accent-light: #3d6b42;
+  --color-historical: #c17f59;
+  --color-modern: #8b7355;
   --color-quote: #4A4A4A;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Merriweather", Georgia, serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: #1a1a1a;
 }
