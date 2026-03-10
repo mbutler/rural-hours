@@ -1,1 +1,1411 @@
-{"type":"FeatureCollection","features":[]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.064815,
+          42.464402
+        ]
+      },
+      "properties": {
+        "gbif_id": "5154358184",
+        "plant_name": "maple",
+        "scientific_name": "Acer saccharum",
+        "event_date": "2025-04-29T11:45:33",
+        "day_of_year": 119,
+        "year": 2025,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.869873,
+          42.80254
+        ]
+      },
+      "properties": {
+        "gbif_id": "5206422924",
+        "plant_name": "maple",
+        "scientific_name": "Acer saccharum",
+        "event_date": "2025-06-19T11:06:19",
+        "day_of_year": 170,
+        "year": 2025,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.061111,
+          42.496944
+        ]
+      },
+      "properties": {
+        "gbif_id": "4507581752",
+        "plant_name": "maple",
+        "scientific_name": "Acer saccharum",
+        "event_date": "2022-09-18T15:30",
+        "day_of_year": 261,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.693717,
+          42.537007
+        ]
+      },
+      "properties": {
+        "gbif_id": "3118473344",
+        "plant_name": "maple",
+        "scientific_name": "Acer saccharum",
+        "event_date": "2021-05-15T09:32",
+        "day_of_year": 135,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.685369,
+          42.609586
+        ]
+      },
+      "properties": {
+        "gbif_id": "1838315336",
+        "plant_name": "maple",
+        "scientific_name": "Acer saccharum",
+        "event_date": "2018-04-13T18:38:47",
+        "day_of_year": 103,
+        "year": 2018,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9897,
+          42.858038
+        ]
+      },
+      "properties": {
+        "gbif_id": "5153052026",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2025-04-22T19:04:36",
+        "day_of_year": 112,
+        "year": 2025,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.919312,
+          42.69865
+        ]
+      },
+      "properties": {
+        "gbif_id": "5153496568",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2025-04-29T13:05:17",
+        "day_of_year": 119,
+        "year": 2025,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.070953,
+          42.462937
+        ]
+      },
+      "properties": {
+        "gbif_id": "5153576001",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2025-04-25T15:07:58",
+        "day_of_year": 115,
+        "year": 2025,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.070953,
+          42.462937
+        ]
+      },
+      "properties": {
+        "gbif_id": "5837760693",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2025-04-25T15:07:58",
+        "day_of_year": 115,
+        "year": 2025,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.055213,
+          42.516518
+        ]
+      },
+      "properties": {
+        "gbif_id": "5154885365",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2025-05-11T09:44:13",
+        "day_of_year": 131,
+        "year": 2025,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.12217,
+          42.479373
+        ]
+      },
+      "properties": {
+        "gbif_id": "4091878453",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2023-04-16T18:50",
+        "day_of_year": 106,
+        "year": 2023,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.884353,
+          42.759044
+        ]
+      },
+      "properties": {
+        "gbif_id": "4138142238",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2023-06-18T11:30",
+        "day_of_year": 169,
+        "year": 2023,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.927732,
+          42.699069
+        ]
+      },
+      "properties": {
+        "gbif_id": "3958679364",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2022-03-20T20:26:26.218Z",
+        "day_of_year": 79,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.680729,
+          42.69283
+        ]
+      },
+      "properties": {
+        "gbif_id": "3784734043",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2022-05-15T16:48:20",
+        "day_of_year": 135,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.925072,
+          42.698363
+        ]
+      },
+      "properties": {
+        "gbif_id": "3955246063",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2022-07-27T17:50:23.022Z",
+        "day_of_year": 208,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.924561,
+          42.694611
+        ]
+      },
+      "properties": {
+        "gbif_id": "3881744320",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2022-08-02T14:52:34",
+        "day_of_year": 214,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.058673,
+          42.462371
+        ]
+      },
+      "properties": {
+        "gbif_id": "3998133067",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2022-08-29T14:29:51.214Z",
+        "day_of_year": 241,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.823028,
+          42.897253
+        ]
+      },
+      "properties": {
+        "gbif_id": "3998640679",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2022-09-03T18:41:13.768Z",
+        "day_of_year": 246,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.787038,
+          42.722318
+        ]
+      },
+      "properties": {
+        "gbif_id": "3947121150",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2022-10-12T16:26:29",
+        "day_of_year": 285,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.067366,
+          42.455684
+        ]
+      },
+      "properties": {
+        "gbif_id": "3955185957",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2021-04-20T22:56:10.991Z",
+        "day_of_year": 110,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.965869,
+          42.521572
+        ]
+      },
+      "properties": {
+        "gbif_id": "3953990139",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2021-05-20T11:21:56.558Z",
+        "day_of_year": 140,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.965839,
+          42.521592
+        ]
+      },
+      "properties": {
+        "gbif_id": "3957256964",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2021-05-20T11:21:08.324Z",
+        "day_of_year": 140,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.200178,
+          42.769796
+        ]
+      },
+      "properties": {
+        "gbif_id": "3959591534",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2021-05-10T23:37:45.629Z",
+        "day_of_year": 130,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.783733,
+          42.725528
+        ]
+      },
+      "properties": {
+        "gbif_id": "3957709720",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2021-08-05T15:56:41.382Z",
+        "day_of_year": 217,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.929438,
+          42.707001
+        ]
+      },
+      "properties": {
+        "gbif_id": "3955780725",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2021-09-18T13:18:59.951Z",
+        "day_of_year": 261,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.82331,
+          42.897313
+        ]
+      },
+      "properties": {
+        "gbif_id": "3952525774",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2021-10-14T16:14:41.460Z",
+        "day_of_year": 287,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.888264,
+          42.598927
+        ]
+      },
+      "properties": {
+        "gbif_id": "2823253390",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2020-03-22T14:17:17",
+        "day_of_year": 82,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.005892,
+          42.832997
+        ]
+      },
+      "properties": {
+        "gbif_id": "2634050423",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2020-05-23T18:48:23",
+        "day_of_year": 144,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.241321,
+          42.546057
+        ]
+      },
+      "properties": {
+        "gbif_id": "2976705611",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2020-05-04T16:27:59.060Z",
+        "day_of_year": 125,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.241321,
+          42.546057
+        ]
+      },
+      "properties": {
+        "gbif_id": "2977241868",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2020-05-06T03:29:36.922Z",
+        "day_of_year": 127,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.067445,
+          42.454044
+        ]
+      },
+      "properties": {
+        "gbif_id": "2977716837",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2020-05-17T13:58:00.733Z",
+        "day_of_year": 138,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.980982,
+          42.679279
+        ]
+      },
+      "properties": {
+        "gbif_id": "3956776390",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2020-05-01T19:36:05.798Z",
+        "day_of_year": 122,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.844464,
+          42.881997
+        ]
+      },
+      "properties": {
+        "gbif_id": "4416805311",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2020-05-24T10:47:19",
+        "day_of_year": 145,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.826602,
+          42.899829
+        ]
+      },
+      "properties": {
+        "gbif_id": "2823141457",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2020-06-25T12:22:18",
+        "day_of_year": 177,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.965853,
+          42.521514
+        ]
+      },
+      "properties": {
+        "gbif_id": "3957227232",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2020-08-09T21:50:58.871Z",
+        "day_of_year": 222,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.823924,
+          42.89745
+        ]
+      },
+      "properties": {
+        "gbif_id": "2273248577",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2019-06-22T10:34:58",
+        "day_of_year": 173,
+        "year": 2019,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.822986,
+          42.548472
+        ]
+      },
+      "properties": {
+        "gbif_id": "2645455932",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2019-06-05T22:05:09.153Z",
+        "day_of_year": 156,
+        "year": 2019,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.605165,
+          42.481502
+        ]
+      },
+      "properties": {
+        "gbif_id": "2644251161",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2018-05-08T18:09:20.285Z",
+        "day_of_year": 128,
+        "year": 2018,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.751892,
+          42.600788
+        ]
+      },
+      "properties": {
+        "gbif_id": "3955112849",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2018-07-12T18:13:36.358Z",
+        "day_of_year": 193,
+        "year": 2018,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.249886,
+          42.746651
+        ]
+      },
+      "properties": {
+        "gbif_id": "3951418875",
+        "plant_name": "periwinkle",
+        "scientific_name": "Vinca minor",
+        "event_date": "2017-04-28T17:07:02.846Z",
+        "day_of_year": 118,
+        "year": 2017,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.95076,
+          42.6609
+        ]
+      },
+      "properties": {
+        "gbif_id": "5140130498",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2025-04-23T17:12:20",
+        "day_of_year": 113,
+        "year": 2025,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.28302,
+          42.592743
+        ]
+      },
+      "properties": {
+        "gbif_id": "5840168120",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2025-10-05T10:09",
+        "day_of_year": 278,
+        "year": 2025,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.917371,
+          42.726713
+        ]
+      },
+      "properties": {
+        "gbif_id": "4868069125",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2024-05-12T09:12:47",
+        "day_of_year": 133,
+        "year": 2024,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.919692,
+          42.700699
+        ]
+      },
+      "properties": {
+        "gbif_id": "4901869809",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2024-05-03T17:34:06",
+        "day_of_year": 124,
+        "year": 2024,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.102364,
+          42.436833
+        ]
+      },
+      "properties": {
+        "gbif_id": "4080880389",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2023-04-09T18:55:22",
+        "day_of_year": 99,
+        "year": 2023,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.247354,
+          42.872509
+        ]
+      },
+      "properties": {
+        "gbif_id": "5291955959",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2023-04-18T12:50",
+        "day_of_year": 108,
+        "year": 2023,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.250997,
+          42.879238
+        ]
+      },
+      "properties": {
+        "gbif_id": "5830518453",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2023-04-18T12:50",
+        "day_of_year": 108,
+        "year": 2023,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.865394,
+          42.787741
+        ]
+      },
+      "properties": {
+        "gbif_id": "4112193702",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2023-05-06T11:45",
+        "day_of_year": 126,
+        "year": 2023,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.927371,
+          42.716657
+        ]
+      },
+      "properties": {
+        "gbif_id": "4116034124",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2023-05-13T13:10:05",
+        "day_of_year": 133,
+        "year": 2023,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.060681,
+          42.451293
+        ]
+      },
+      "properties": {
+        "gbif_id": "4171362152",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2023-07-10T11:25:32",
+        "day_of_year": 191,
+        "year": 2023,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.864216,
+          42.787227
+        ]
+      },
+      "properties": {
+        "gbif_id": "4430545409",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2023-10-03T18:06:50",
+        "day_of_year": 276,
+        "year": 2023,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.692498,
+          42.612221
+        ]
+      },
+      "properties": {
+        "gbif_id": "3955224040",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2022-04-30T19:35:38.494Z",
+        "day_of_year": 120,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.865654,
+          42.787013
+        ]
+      },
+      "properties": {
+        "gbif_id": "3955222958",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2022-05-31T14:13:28.962Z",
+        "day_of_year": 151,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.934167,
+          42.456742
+        ]
+      },
+      "properties": {
+        "gbif_id": "3985880021",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2022-05-20T14:42:13",
+        "day_of_year": 140,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.248503,
+          42.778972
+        ]
+      },
+      "properties": {
+        "gbif_id": "3998030332",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2022-05-25T22:03:12.529Z",
+        "day_of_year": 145,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.864222,
+          42.794605
+        ]
+      },
+      "properties": {
+        "gbif_id": "3954164169",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2021-04-29T17:49:07.785Z",
+        "day_of_year": 119,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.784167,
+          42.724875
+        ]
+      },
+      "properties": {
+        "gbif_id": "3955290185",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2021-04-26T21:31:12.843Z",
+        "day_of_year": 116,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.875953,
+          42.775447
+        ]
+      },
+      "properties": {
+        "gbif_id": "3124768744",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2021-05-25T11:58",
+        "day_of_year": 145,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.949317,
+          42.661412
+        ]
+      },
+      "properties": {
+        "gbif_id": "3124813753",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2021-05-24T12:27:56",
+        "day_of_year": 144,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.790938,
+          42.719563
+        ]
+      },
+      "properties": {
+        "gbif_id": "3320884473",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2021-05-24T12:10:48",
+        "day_of_year": 144,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.880808,
+          42.79487
+        ]
+      },
+      "properties": {
+        "gbif_id": "3952853541",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2021-05-23T18:14:26.581Z",
+        "day_of_year": 143,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.940597,
+          42.609883
+        ]
+      },
+      "properties": {
+        "gbif_id": "3959433035",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2021-05-10T22:28:14.292Z",
+        "day_of_year": 130,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.029019,
+          42.778665
+        ]
+      },
+      "properties": {
+        "gbif_id": "3959739629",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2021-05-26T22:43:49.867Z",
+        "day_of_year": 146,
+        "year": 2021,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.904846,
+          42.619998
+        ]
+      },
+      "properties": {
+        "gbif_id": "2580128461",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2020-03-15T14:41:46",
+        "day_of_year": 75,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.968424,
+          42.487131
+        ]
+      },
+      "properties": {
+        "gbif_id": "2634449786",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2020-05-31T17:14",
+        "day_of_year": 152,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.042036,
+          42.459472
+        ]
+      },
+      "properties": {
+        "gbif_id": "3952781396",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2020-05-25T18:33:13.810Z",
+        "day_of_year": 146,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.253526,
+          42.783411
+        ]
+      },
+      "properties": {
+        "gbif_id": "2826438386",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2020-07-27T14:05:29",
+        "day_of_year": 209,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.864013,
+          42.785392
+        ]
+      },
+      "properties": {
+        "gbif_id": "2864635922",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2020-09-14T11:54:25",
+        "day_of_year": 258,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.924797,
+          42.728453
+        ]
+      },
+      "properties": {
+        "gbif_id": "2244288513",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2019-05-20T20:00:56",
+        "day_of_year": 140,
+        "year": 2019,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.917098,
+          42.726463
+        ]
+      },
+      "properties": {
+        "gbif_id": "1899790163",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2018-07-02T15:24",
+        "day_of_year": 183,
+        "year": 2018,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.107024,
+          42.431407
+        ]
+      },
+      "properties": {
+        "gbif_id": "4910934280",
+        "plant_name": "skunk-cabbage",
+        "scientific_name": "Symplocarpus foetidus",
+        "event_date": "2007-04-20T03:08:10",
+        "day_of_year": 110,
+        "year": 2007,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0539,
+          42.462932
+        ]
+      },
+      "properties": {
+        "gbif_id": "4510297683",
+        "plant_name": "snow-drop",
+        "scientific_name": "Galanthus nivalis",
+        "event_date": "2022-04-11T16:17",
+        "day_of_year": 101,
+        "year": 2022,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.891923,
+          42.653468
+        ]
+      },
+      "properties": {
+        "gbif_id": "2580105739",
+        "plant_name": "snow-drop",
+        "scientific_name": "Galanthus nivalis",
+        "event_date": "2020-03-17T14:31:14",
+        "day_of_year": 77,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.919109,
+          42.693687
+        ]
+      },
+      "properties": {
+        "gbif_id": "3698192333",
+        "plant_name": "snow-drop",
+        "scientific_name": "Galanthus nivalis",
+        "event_date": "2020-04-05T15:45:46",
+        "day_of_year": 96,
+        "year": 2020,
+        "record_type": "modern"
+      }
+    }
+  ]
+}
