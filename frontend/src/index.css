@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Modern Naturalist palette (from spec) */
+:root {
+  --color-bg: #FAFAFA;
+  --color-accent: #2C5530;
+  --color-quote: #4A4A4A;
+}
