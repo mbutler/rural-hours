@@ -143,13 +143,37 @@ def extract_chunk(header: str, body: str, dry_run: bool = False) -> list[dict]:
 
 def run(dry_run: bool = False, limit: int | None = None) -> None:
     """Run extraction pipeline."""
+    import shutil
     import sqlite3
     text = TEXT_PATH.read_text(encoding="utf-8")
     chunks = chunk_text(text)
     if limit:
         chunks = chunks[:limit]
     print(f"Found {len(chunks)} journal entries")
-    conn = sqlite3.connect(DB_PATH)
+
+    # Use temp DB to avoid locks from other processes (e.g. IDE, viewers)
+    TEMP_DB = ROOT / "data_extract_temp.sqlite"
+    try:
+        if DB_PATH.exists():
+            shutil.copy2(DB_PATH, TEMP_DB)
+        else:
+            from pipeline.schema import setup_database
+            setup_database()
+            shutil.copy2(DB_PATH, TEMP_DB)
+    except OSError:
+        # Source locked; create fresh temp with schema
+        from pipeline.schema import create_schema
+        TEMP_DB.unlink(missing_ok=True)
+        conn_temp = sqlite3.connect(TEMP_DB)
+        create_schema(conn_temp)
+        conn_temp.commit()
+        conn_temp.close()
+        print("Using fresh temp DB (main DB locked for reading)")
+    conn = sqlite3.connect(TEMP_DB, timeout=60)
+    conn.execute("PRAGMA busy_timeout = 60000")
+    if not limit:
+        conn.execute("DELETE FROM raw_observations")
+        print("Cleared existing observations for full extraction")
     try:
         for i, (header, body, doy) in enumerate(chunks):
             if not body or len(body) < 50:
@@ -172,12 +196,23 @@ def run(dry_run: bool = False, limit: int | None = None) -> None:
                     (plant, obs_date, obs_doy, event, quote, header),
                 )
             if (i + 1) % 20 == 0:
+                conn.commit()
                 print(f"  Processed {i + 1}/{len(chunks)} entries")
         conn.commit()
         count = conn.execute("SELECT COUNT(*) FROM raw_observations").fetchone()[0]
         print(f"Stored {count} observations in raw_observations")
-    finally:
         conn.close()
+        # Replace main DB with results (may fail if main DB is locked)
+        try:
+            shutil.copy2(TEMP_DB, DB_PATH)
+            TEMP_DB.unlink(missing_ok=True)
+            print(f"Updated {DB_PATH}")
+        except OSError as e:
+            print(f"Could not update main DB (it may be locked): {e}")
+            print(f"Extraction complete. Copy data_extract_temp.sqlite to data.sqlite manually, then run harmonize/occurrences/export.")
+    except Exception:
+        conn.close()
+        raise
 
 
 if __name__ == "__main__":

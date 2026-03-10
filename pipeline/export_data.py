@@ -15,6 +15,21 @@ OUTPUT_DIR = ROOT / "frontend" / "public" / "data"
 CITATION = "Cooper, Susan Fenimore. Rural Hours. 3rd ed. New York: George P. Putnam, 1850."
 
 
+def parse_taxonomy_from_raw(raw_json: str | None) -> dict:
+    """Extract taxonomy from GBIF occurrence raw_json."""
+    if not raw_json:
+        return {}
+    try:
+        rec = json.loads(raw_json)
+        return {
+            k: rec.get(k)
+            for k in ("kingdom", "phylum", "class", "order", "family", "genus", "species", "scientificName")
+            if rec.get(k)
+        }
+    except (json.JSONDecodeError, TypeError):
+        return {}
+
+
 def format_entry_date(observation_date: str | None, chunk_source: str | None, day_of_year: int | None) -> str:
     """Build human-readable entry date for citation."""
     if observation_date:
@@ -33,8 +48,24 @@ def format_entry_date(observation_date: str | None, chunk_source: str | None, da
     return chunk_source or "—"
 
 
+def _taxonomy_by_species(conn: sqlite3.Connection) -> dict[str, dict]:
+    """Build species -> taxonomy map from first occurrence's raw_json per species."""
+    rows = conn.execute("""
+        SELECT s.plant_name_mentioned, g.raw_json
+        FROM species s
+        JOIN gbif_occurrences g ON g.species_id = s.id
+        WHERE g.raw_json IS NOT NULL
+    """).fetchall()
+    out: dict[str, dict] = {}
+    for plant, raw_json in rows:
+        if plant not in out:
+            out[plant] = parse_taxonomy_from_raw(raw_json)
+    return out
+
+
 def export_observations(conn: sqlite3.Connection) -> list[dict]:
     """Join observations with species taxonomy for observations.json."""
+    taxonomy_by_species = _taxonomy_by_species(conn)
     rows = conn.execute("""
         SELECT 
             o.id,
@@ -66,6 +97,7 @@ def export_observations(conn: sqlite3.Connection) -> list[dict]:
             "gbif_usage_key": r[9],
             "citation": CITATION,
             "entry_date": format_entry_date(r[2], r[6], r[3]),
+            "taxonomy": taxonomy_by_species.get(r[1]) or {},
         }
         for r in rows
     ]
@@ -82,6 +114,7 @@ def export_occurrences_geojson(conn: sqlite3.Connection) -> dict:
             g.year,
             g.record_type,
             g.gbif_id,
+            g.raw_json,
             s.plant_name_mentioned,
             s.accepted_scientific_name
         FROM gbif_occurrences g
@@ -91,22 +124,26 @@ def export_occurrences_geojson(conn: sqlite3.Connection) -> dict:
 
     features = []
     for r in rows:
-        lat, lon, event_date, doy, year, record_type, gbif_id, plant, scientific = r
+        lat, lon, event_date, doy, year, record_type, gbif_id, raw_json, plant, scientific = r
+        taxonomy = parse_taxonomy_from_raw(raw_json)
+        props = {
+            "gbif_id": gbif_id,
+            "plant_name": plant,
+            "scientific_name": scientific,
+            "event_date": event_date,
+            "day_of_year": doy,
+            "year": year,
+            "record_type": record_type,
+        }
+        if taxonomy:
+            props["taxonomy"] = taxonomy
         features.append({
             "type": "Feature",
             "geometry": {
                 "type": "Point",
                 "coordinates": [float(lon), float(lat)],
             },
-            "properties": {
-                "gbif_id": gbif_id,
-                "plant_name": plant,
-                "scientific_name": scientific,
-                "event_date": event_date,
-                "day_of_year": doy,
-                "year": year,
-                "record_type": record_type,
-            },
+            "properties": props,
         })
 
     return {

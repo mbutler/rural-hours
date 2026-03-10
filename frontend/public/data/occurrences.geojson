@@ -17,7 +17,17 @@
         "event_date": "2025-04-29T11:45:33",
         "day_of_year": 119,
         "year": 2025,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Sapindales",
+          "family": "Sapindaceae",
+          "genus": "Acer",
+          "species": "Acer saccharum",
+          "scientificName": "Acer saccharum Marshall"
+        }
       }
     },
     {
@@ -36,7 +46,17 @@
         "event_date": "2025-06-19T11:06:19",
         "day_of_year": 170,
         "year": 2025,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Sapindales",
+          "family": "Sapindaceae",
+          "genus": "Acer",
+          "species": "Acer saccharum",
+          "scientificName": "Acer saccharum Marshall"
+        }
       }
     },
     {
@@ -74,7 +94,17 @@
         "event_date": "2021-05-15T09:32",
         "day_of_year": 135,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Sapindales",
+          "family": "Sapindaceae",
+          "genus": "Acer",
+          "species": "Acer saccharum",
+          "scientificName": "Acer saccharum Marshall"
+        }
       }
     },
     {
@@ -93,7 +123,17 @@
         "event_date": "2018-04-13T18:38:47",
         "day_of_year": 103,
         "year": 2018,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Sapindales",
+          "family": "Sapindaceae",
+          "genus": "Acer",
+          "species": "Acer saccharum",
+          "scientificName": "Acer saccharum Marshall"
+        }
       }
     },
     {
@@ -112,7 +152,17 @@
         "event_date": "2025-04-22T19:04:36",
         "day_of_year": 112,
         "year": 2025,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -131,7 +181,17 @@
         "event_date": "2025-04-29T13:05:17",
         "day_of_year": 119,
         "year": 2025,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -150,7 +210,17 @@
         "event_date": "2025-04-25T15:07:58",
         "day_of_year": 115,
         "year": 2025,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -169,7 +239,17 @@
         "event_date": "2025-04-25T15:07:58",
         "day_of_year": 115,
         "year": 2025,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -188,7 +268,17 @@
         "event_date": "2025-05-11T09:44:13",
         "day_of_year": 131,
         "year": 2025,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -207,7 +297,17 @@
         "event_date": "2023-04-16T18:50",
         "day_of_year": 106,
         "year": 2023,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -226,7 +326,17 @@
         "event_date": "2023-06-18T11:30",
         "day_of_year": 169,
         "year": 2023,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -245,7 +355,17 @@
         "event_date": "2022-03-20T20:26:26.218Z",
         "day_of_year": 79,
         "year": 2022,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -264,7 +384,17 @@
         "event_date": "2022-05-15T16:48:20",
         "day_of_year": 135,
         "year": 2022,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -283,7 +413,17 @@
         "event_date": "2022-07-27T17:50:23.022Z",
         "day_of_year": 208,
         "year": 2022,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -302,7 +442,17 @@
         "event_date": "2022-08-02T14:52:34",
         "day_of_year": 214,
         "year": 2022,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -321,7 +471,17 @@
         "event_date": "2022-08-29T14:29:51.214Z",
         "day_of_year": 241,
         "year": 2022,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -340,7 +500,17 @@
         "event_date": "2022-09-03T18:41:13.768Z",
         "day_of_year": 246,
         "year": 2022,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -359,7 +529,17 @@
         "event_date": "2022-10-12T16:26:29",
         "day_of_year": 285,
         "year": 2022,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -378,7 +558,17 @@
         "event_date": "2021-04-20T22:56:10.991Z",
         "day_of_year": 110,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -397,7 +587,17 @@
         "event_date": "2021-05-20T11:21:56.558Z",
         "day_of_year": 140,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -416,7 +616,17 @@
         "event_date": "2021-05-20T11:21:08.324Z",
         "day_of_year": 140,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -435,7 +645,17 @@
         "event_date": "2021-05-10T23:37:45.629Z",
         "day_of_year": 130,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -454,7 +674,17 @@
         "event_date": "2021-08-05T15:56:41.382Z",
         "day_of_year": 217,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -473,7 +703,17 @@
         "event_date": "2021-09-18T13:18:59.951Z",
         "day_of_year": 261,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -492,7 +732,17 @@
         "event_date": "2021-10-14T16:14:41.460Z",
         "day_of_year": 287,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -549,7 +799,17 @@
         "event_date": "2020-05-04T16:27:59.060Z",
         "day_of_year": 125,
         "year": 2020,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -568,7 +828,17 @@
         "event_date": "2020-05-06T03:29:36.922Z",
         "day_of_year": 127,
         "year": 2020,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -587,7 +857,17 @@
         "event_date": "2020-05-17T13:58:00.733Z",
         "day_of_year": 138,
         "year": 2020,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -606,7 +886,17 @@
         "event_date": "2020-05-01T19:36:05.798Z",
         "day_of_year": 122,
         "year": 2020,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -625,7 +915,17 @@
         "event_date": "2020-05-24T10:47:19",
         "day_of_year": 145,
         "year": 2020,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -644,7 +944,17 @@
         "event_date": "2020-06-25T12:22:18",
         "day_of_year": 177,
         "year": 2020,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -663,7 +973,17 @@
         "event_date": "2020-08-09T21:50:58.871Z",
         "day_of_year": 222,
         "year": 2020,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -682,7 +1002,17 @@
         "event_date": "2019-06-22T10:34:58",
         "day_of_year": 173,
         "year": 2019,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -701,7 +1031,17 @@
         "event_date": "2019-06-05T22:05:09.153Z",
         "day_of_year": 156,
         "year": 2019,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -720,7 +1060,17 @@
         "event_date": "2018-05-08T18:09:20.285Z",
         "day_of_year": 128,
         "year": 2018,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -739,7 +1089,17 @@
         "event_date": "2018-07-12T18:13:36.358Z",
         "day_of_year": 193,
         "year": 2018,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -758,7 +1118,17 @@
         "event_date": "2017-04-28T17:07:02.846Z",
         "day_of_year": 118,
         "year": 2017,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Gentianales",
+          "family": "Apocynaceae",
+          "genus": "Vinca",
+          "species": "Vinca minor",
+          "scientificName": "Vinca minor L."
+        }
       }
     },
     {
@@ -777,7 +1147,17 @@
         "event_date": "2025-04-23T17:12:20",
         "day_of_year": 113,
         "year": 2025,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -796,7 +1176,17 @@
         "event_date": "2025-10-05T10:09",
         "day_of_year": 278,
         "year": 2025,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -815,7 +1205,17 @@
         "event_date": "2024-05-12T09:12:47",
         "day_of_year": 133,
         "year": 2024,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -834,7 +1234,17 @@
         "event_date": "2024-05-03T17:34:06",
         "day_of_year": 124,
         "year": 2024,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -872,7 +1282,17 @@
         "event_date": "2023-04-18T12:50",
         "day_of_year": 108,
         "year": 2023,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -891,7 +1311,17 @@
         "event_date": "2023-04-18T12:50",
         "day_of_year": 108,
         "year": 2023,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -910,7 +1340,17 @@
         "event_date": "2023-05-06T11:45",
         "day_of_year": 126,
         "year": 2023,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -929,7 +1369,17 @@
         "event_date": "2023-05-13T13:10:05",
         "day_of_year": 133,
         "year": 2023,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -948,7 +1398,17 @@
         "event_date": "2023-07-10T11:25:32",
         "day_of_year": 191,
         "year": 2023,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -967,7 +1427,17 @@
         "event_date": "2023-10-03T18:06:50",
         "day_of_year": 276,
         "year": 2023,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -986,7 +1456,17 @@
         "event_date": "2022-04-30T19:35:38.494Z",
         "day_of_year": 120,
         "year": 2022,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1005,7 +1485,17 @@
         "event_date": "2022-05-31T14:13:28.962Z",
         "day_of_year": 151,
         "year": 2022,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1024,7 +1514,17 @@
         "event_date": "2022-05-20T14:42:13",
         "day_of_year": 140,
         "year": 2022,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1043,7 +1543,17 @@
         "event_date": "2022-05-25T22:03:12.529Z",
         "day_of_year": 145,
         "year": 2022,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1062,7 +1572,17 @@
         "event_date": "2021-04-29T17:49:07.785Z",
         "day_of_year": 119,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1081,7 +1601,17 @@
         "event_date": "2021-04-26T21:31:12.843Z",
         "day_of_year": 116,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1100,7 +1630,17 @@
         "event_date": "2021-05-25T11:58",
         "day_of_year": 145,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1119,7 +1659,17 @@
         "event_date": "2021-05-24T12:27:56",
         "day_of_year": 144,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1138,7 +1688,17 @@
         "event_date": "2021-05-24T12:10:48",
         "day_of_year": 144,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1157,7 +1717,17 @@
         "event_date": "2021-05-23T18:14:26.581Z",
         "day_of_year": 143,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1176,7 +1746,17 @@
         "event_date": "2021-05-10T22:28:14.292Z",
         "day_of_year": 130,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1195,7 +1775,17 @@
         "event_date": "2021-05-26T22:43:49.867Z",
         "day_of_year": 146,
         "year": 2021,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1214,7 +1804,17 @@
         "event_date": "2020-03-15T14:41:46",
         "day_of_year": 75,
         "year": 2020,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1233,7 +1833,17 @@
         "event_date": "2020-05-31T17:14",
         "day_of_year": 152,
         "year": 2020,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1252,7 +1862,17 @@
         "event_date": "2020-05-25T18:33:13.810Z",
         "day_of_year": 146,
         "year": 2020,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1271,7 +1891,17 @@
         "event_date": "2020-07-27T14:05:29",
         "day_of_year": 209,
         "year": 2020,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1290,7 +1920,17 @@
         "event_date": "2020-09-14T11:54:25",
         "day_of_year": 258,
         "year": 2020,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1309,7 +1949,17 @@
         "event_date": "2019-05-20T20:00:56",
         "day_of_year": 140,
         "year": 2019,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1328,7 +1978,17 @@
         "event_date": "2018-07-02T15:24",
         "day_of_year": 183,
         "year": 2018,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1347,7 +2007,17 @@
         "event_date": "2007-04-20T03:08:10",
         "day_of_year": 110,
         "year": 2007,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Alismatales",
+          "family": "Araceae",
+          "genus": "Symplocarpus",
+          "species": "Symplocarpus foetidus",
+          "scientificName": "Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton"
+        }
       }
     },
     {
@@ -1366,7 +2036,17 @@
         "event_date": "2022-04-11T16:17",
         "day_of_year": 101,
         "year": 2022,
-        "record_type": "modern"
+        "record_type": "modern",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Liliopsida",
+          "order": "Asparagales",
+          "family": "Amaryllidaceae",
+          "genus": "Galanthus",
+          "species": "Galanthus nivalis",
+          "scientificName": "Galanthus nivalis L."
+        }
       }
     },
     {
@@ -1423,7 +2103,17 @@
         "event_date": "1909-06-02",
         "day_of_year": 153,
         "year": 1909,
-        "record_type": "midcentury"
+        "record_type": "midcentury",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Sapindales",
+          "family": "Sapindaceae",
+          "genus": "Acer",
+          "species": "Acer saccharum",
+          "scientificName": "Acer saccharum Marshall"
+        }
       }
     },
     {
@@ -1442,7 +2132,17 @@
         "event_date": "1909-07-03/1909-07-10",
         "day_of_year": 184,
         "year": 1909,
-        "record_type": "midcentury"
+        "record_type": "midcentury",
+        "taxonomy": {
+          "kingdom": "Plantae",
+          "phylum": "Tracheophyta",
+          "class": "Magnoliopsida",
+          "order": "Sapindales",
+          "family": "Sapindaceae",
+          "genus": "Acer",
+          "species": "Acer saccharum",
+          "scientificName": "Acer saccharum Marshall"
+        }
       }
     }
   ]

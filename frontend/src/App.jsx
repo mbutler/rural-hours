@@ -54,7 +54,7 @@ function App() {
     return Array.from(seen.values()).sort((a, b) => a.name.localeCompare(b.name))
   }, [observations])
 
-  // Selected species context: first observation (quote, date, citation)
+  // Selected species context: first observation (quote, date, citation, taxonomy)
   const selectedContext = useMemo(() => {
     if (!selectedSpecies) return null
     const obs = observations.filter(o => o.plant_name_mentioned === selectedSpecies)
@@ -68,9 +68,12 @@ function App() {
       family: first.family,
       citation: first.citation,
       entryDate: first.entry_date,
+      taxonomy: first.taxonomy || {},
       allQuotes: obs.map(o => o.quote),
     }
   }, [selectedSpecies, observations])
+
+  const TAXONOMY_RANKS = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species']
 
   // Filtered occurrences for map (by selected species)
   const filteredOccurrences = useMemo(() => {
@@ -185,6 +188,7 @@ function App() {
 
       const popup = new maplibregl.Popup({ offset: 15 })
       const recordTypeLabel = (t) => ({ historical: 'Historical', midcentury: 'Midcentury (1900–1980)', modern: 'Modern' }[t] || t)
+      const taxonomyRanks = ['kingdom', 'phylum', 'class', 'order', 'family', 'genus', 'species']
       m.on('click', e => {
         const features = m.queryRenderedFeatures(e.point, {
           layers: ['occ-historical', 'occ-midcentury', 'occ-modern'],
@@ -193,13 +197,20 @@ function App() {
           const f = features[0]
           const p = f.properties || {}
           if (p.plant_name) setSelectedSpecies(p.plant_name)
+          let taxHtml = ''
+          try {
+            const tax = typeof p.taxonomy === 'string' ? JSON.parse(p.taxonomy) : (p.taxonomy || {})
+            const taxRows = taxonomyRanks.filter(r => tax[r]).map(r => 
+              `<tr><td style="color:#9ca3af;font-size:11px;padding:1px 6px 1px 0">${r}</td><td style="font-size:11px;${r === 'species' || r === 'genus' ? 'font-style:italic' : ''}">${tax[r]}</td></tr>`
+            ).join('')
+            if (taxRows) taxHtml = `<table style="margin-top:6px;border-top:1px solid #e5e7eb;padding-top:6px">${taxRows}</table>`
+          } catch (_) {}
           const html = `
-            <div style="font-size:13px;min-width:180px">
+            <div style="font-size:13px;min-width:200px">
               <p style="font-weight:600;color:#2C5530;margin:0">${p.plant_name || '—'}</p>
               ${p.scientific_name ? `<p style="color:#4b5563;font-style:italic;margin:4px 0 0">${p.scientific_name}</p>` : ''}
-              <p style="margin:6px 0 0">${recordTypeLabel(p.record_type)} record</p>
-              ${p.event_date ? `<p style="margin:2px 0 0">${String(p.event_date).slice(0, 10)}</p>` : ''}
-              ${p.year ? `<p style="margin:2px 0 0">Year: ${p.year}</p>` : ''}
+              <p style="margin:6px 0 0;font-size:11px;color:#6b7280">${recordTypeLabel(p.record_type)} · ${p.event_date ? String(p.event_date).slice(0, 10) : p.year || '—'}</p>
+              ${taxHtml}
             </div>
           `
           popup.setLngLat(e.lngLat).setHTML(html).addTo(m)
@@ -300,12 +311,25 @@ function App() {
               </p>
             </div>
             <div className="pt-2 border-t border-gray-100">
-              <p className="text-xs font-medium text-gray-500 uppercase tracking-wide">Modern taxonomy</p>
-              <p className="mt-1 text-sm font-medium">
-                {selectedContext.scientific || '—'}
-              </p>
-              {selectedContext.family && (
-                <p className="text-xs text-gray-500">{selectedContext.family}</p>
+              <p className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Taxonomy (GBIF)</p>
+              {Object.keys(selectedContext.taxonomy || {}).length > 0 ? (
+                <div className="space-y-1 text-xs">
+                  {TAXONOMY_RANKS.filter(r => selectedContext.taxonomy[r]).map(rank => (
+                    <div key={rank} className="flex gap-2">
+                      <span className="text-gray-400 w-16 capitalize shrink-0">{rank}</span>
+                      <span className={rank === 'species' || rank === 'genus' ? 'italic text-gray-800' : 'text-gray-600'}>
+                        {selectedContext.taxonomy[rank]}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <>
+                  <p className="text-sm font-medium">{selectedContext.scientific || '—'}</p>
+                  {selectedContext.family && (
+                    <p className="text-xs text-gray-500">{selectedContext.family}</p>
+                  )}
+                </>
               )}
             </div>
           </div>
