@@ -98,7 +98,8 @@ def fetch_occurrences_for_species(
 
 def run() -> None:
     """Fetch occurrences for all harmonized species with usage_key."""
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(DB_PATH, timeout=60)
+    conn.execute("PRAGMA busy_timeout = 60000")
     rows = conn.execute(
         "SELECT id, plant_name_mentioned, gbif_usage_key FROM species WHERE gbif_usage_key IS NOT NULL"
     ).fetchall()

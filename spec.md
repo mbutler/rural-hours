@@ -1,4 +1,5 @@
 # Project Specification: Susan's Rural Hours Phenology & ESN
+https://gemini.google.com/share/0f8658485cc8
 
 ## 1. Project Overview
 This project is an Extended Specimen Network (ESN) application that compares the 19th-century phenological observations of natural history writer Susan Fenimore Cooper (from her book *Rural Hours*) with historical and modern herbarium records. 

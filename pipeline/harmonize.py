@@ -108,7 +108,8 @@ def harmonize_name(plant_name: str) -> dict | None:
 
 def run() -> None:
     """Run harmonization for all unique plant names in raw_observations."""
-    conn = sqlite3.connect(DB_PATH)
+    conn = sqlite3.connect(DB_PATH, timeout=60)
+    conn.execute("PRAGMA busy_timeout = 60000")
     plants = [
         row[0]
         for row in conn.execute(

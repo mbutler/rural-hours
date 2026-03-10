@@ -156,8 +156,26 @@ def run() -> None:
     """Export observations.json and occurrences.geojson to frontend/public/data/."""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    conn = sqlite3.connect(DB_PATH)
+    # Try direct connect first; if locked, copy to temp and export from copy
+    import shutil
+    conn = None
+    temp_db = ROOT / "data_export_temp.sqlite"
+    try:
+        conn = sqlite3.connect(DB_PATH, timeout=5)
+        conn.execute("PRAGMA busy_timeout = 5000")
+        _do_export(conn)
+    except sqlite3.OperationalError:
+        temp_db.unlink(missing_ok=True)
+        shutil.copy2(DB_PATH, temp_db)
+        conn = sqlite3.connect(temp_db, timeout=60)
+        _do_export(conn)
+    finally:
+        if conn:
+            conn.close()
+        temp_db.unlink(missing_ok=True)
 
+
+def _do_export(conn: sqlite3.Connection) -> None:
     obs = export_observations(conn)
     (OUTPUT_DIR / "observations.json").write_text(
         json.dumps(obs, indent=2), encoding="utf-8"
@@ -169,8 +187,6 @@ def run() -> None:
         json.dumps(geojson, indent=2), encoding="utf-8"
     )
     print(f"Exported {len(geojson['features'])} occurrences to occurrences.geojson")
-
-    conn.close()
 
 
 if __name__ == "__main__":
