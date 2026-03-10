@@ -82,7 +82,7 @@ function App() {
     }
   }, [occurrences, selectedSpecies])
 
-  // Phenology chart data: DOY on x-axis, source band on y (0=Susan, 1=historical, 2=modern)
+  // Phenology chart data: DOY on x-axis, source band on y (0=Susan, 1=historical, 2=midcentury, 3=modern)
   const phenologyData = useMemo(() => {
     const susanPoints = observations
       .filter(o => o.plant_name_mentioned === selectedSpecies && o.day_of_year)
@@ -101,15 +101,23 @@ function App() {
         source: 'Historical',
         year: f.properties.year,
       }))
+    const midPoints = (occurrences.features || [])
+      .filter(f => f.properties?.plant_name === selectedSpecies && f.properties?.day_of_year && f.properties?.record_type === 'midcentury')
+      .map(f => ({
+        day_of_year: f.properties.day_of_year,
+        y: 2,
+        source: 'Midcentury',
+        year: f.properties.year,
+      }))
     const modPoints = (occurrences.features || [])
       .filter(f => f.properties?.plant_name === selectedSpecies && f.properties?.day_of_year && f.properties?.record_type === 'modern')
       .map(f => ({
         day_of_year: f.properties.day_of_year,
-        y: 2,
+        y: 3,
         source: 'Modern',
         year: f.properties.year,
       }))
-    return { susan: susanPoints, historical: histPoints, modern: modPoints }
+    return { susan: susanPoints, historical: histPoints, midcentury: midPoints, modern: modPoints }
   }, [observations, occurrences, selectedSpecies])
 
   // MapLibre init and update
@@ -146,6 +154,20 @@ function App() {
           },
         })
       }
+      if (!m.getLayer('occ-midcentury')) {
+        m.addLayer({
+          id: 'occ-midcentury',
+          type: 'circle',
+          source: 'occurrences',
+          filter: ['==', ['get', 'record_type'], 'midcentury'],
+          paint: {
+            'circle-radius': 6,
+            'circle-color': '#a67c52',
+            'circle-stroke-width': 1,
+            'circle-stroke-color': '#fff',
+          },
+        })
+      }
       if (!m.getLayer('occ-modern')) {
         m.addLayer({
           id: 'occ-modern',
@@ -162,9 +184,10 @@ function App() {
       }
 
       const popup = new maplibregl.Popup({ offset: 15 })
+      const recordTypeLabel = (t) => ({ historical: 'Historical', midcentury: 'Midcentury (1900–1980)', modern: 'Modern' }[t] || t)
       m.on('click', e => {
         const features = m.queryRenderedFeatures(e.point, {
-          layers: ['occ-historical', 'occ-modern'],
+          layers: ['occ-historical', 'occ-midcentury', 'occ-modern'],
         })
         if (features.length > 0) {
           const f = features[0]
@@ -174,7 +197,7 @@ function App() {
             <div style="font-size:13px;min-width:180px">
               <p style="font-weight:600;color:#2C5530;margin:0">${p.plant_name || '—'}</p>
               ${p.scientific_name ? `<p style="color:#4b5563;font-style:italic;margin:4px 0 0">${p.scientific_name}</p>` : ''}
-              <p style="margin:6px 0 0">${p.record_type === 'historical' ? 'Historical' : 'Modern'} record</p>
+              <p style="margin:6px 0 0">${recordTypeLabel(p.record_type)} record</p>
               ${p.event_date ? `<p style="margin:2px 0 0">${String(p.event_date).slice(0, 10)}</p>` : ''}
               ${p.year ? `<p style="margin:2px 0 0">Year: ${p.year}</p>` : ''}
             </div>
@@ -182,12 +205,12 @@ function App() {
           popup.setLngLat(e.lngLat).setHTML(html).addTo(m)
         }
       })
-      m.on('mouseenter', ['occ-historical', 'occ-modern'], () => { m.getCanvas().style.cursor = 'pointer' })
-      m.on('mouseleave', ['occ-historical', 'occ-modern'], () => { m.getCanvas().style.cursor = '' })
+      m.on('mouseenter', ['occ-historical', 'occ-midcentury', 'occ-modern'], () => { m.getCanvas().style.cursor = 'pointer' })
+      m.on('mouseleave', ['occ-historical', 'occ-midcentury', 'occ-modern'], () => { m.getCanvas().style.cursor = '' })
     })
   }, [loading])
 
-  // Update map source when data or map ready
+  // Update map source when data or map ready; fit bounds to filtered points when species selected
   useEffect(() => {
     if (!mapReady) return
     const m = map.current
@@ -195,7 +218,27 @@ function App() {
     m.resize()
     const src = m.getSource('occurrences')
     if (src) src.setData(filteredOccurrences)
-  }, [filteredOccurrences, mapReady])
+    const feats = filteredOccurrences.features || []
+    if (feats.length > 0) {
+      const bbox = feats.reduce(
+        ([minLng, minLat, maxLng, maxLat], f) => {
+          const [lng, lat] = f.geometry?.coordinates || [0, 0]
+          return [
+            Math.min(minLng, lng),
+            Math.min(minLat, lat),
+            Math.max(maxLng, lng),
+            Math.max(maxLat, lat),
+          ]
+        },
+        [Infinity, Infinity, -Infinity, -Infinity]
+      )
+      if (bbox[0] !== Infinity) {
+        m.fitBounds([[bbox[0], bbox[1]], [bbox[2], bbox[3]]], { padding: 50, maxZoom: 14 })
+      }
+    } else if (selectedSpecies) {
+      m.fitBounds(OTSEGO_BOUNDS, { padding: 40 })
+    }
+  }, [filteredOccurrences, mapReady, selectedSpecies])
 
   if (loading) {
     return (
@@ -273,10 +316,14 @@ function App() {
       <main className="lg:col-span-1 flex flex-col min-h-[600px]">
         <div className="h-[400px] flex-shrink-0 relative bg-gray-100">
           <div ref={mapContainer} className="absolute inset-0 w-full h-full" />
-          <div className="absolute bottom-4 left-4 flex gap-3 text-xs">
+          <div className="absolute bottom-4 left-4 flex flex-wrap gap-2 text-xs">
             <span className="bg-white/90 px-2 py-1 rounded shadow-sm">
               <span className="inline-block w-2 h-2 rounded-full bg-[#c17f59] mr-1.5" />
               Historical (1840–1900)
+            </span>
+            <span className="bg-white/90 px-2 py-1 rounded shadow-sm">
+              <span className="inline-block w-2 h-2 rounded-full bg-[#a67c52] mr-1.5" />
+              Midcentury (1900–1980)
             </span>
             <span className="bg-white/90 px-2 py-1 rounded shadow-sm">
               <span className="inline-block w-2 h-2 rounded-full bg-[#8b7355] mr-1.5" />
@@ -289,10 +336,10 @@ function App() {
           <h2 className="text-sm font-medium text-gray-700 mb-4">
             Phenology: Day of Year — {selectedSpecies ? selectedSpecies : 'Select a species'}
           </h2>
-          {selectedSpecies && (phenologyData.susan.length + phenologyData.historical.length + phenologyData.modern.length) > 0 ? (
+          {selectedSpecies && (phenologyData.susan.length + phenologyData.historical.length + phenologyData.midcentury.length + phenologyData.modern.length) > 0 ? (
             <div className="w-full min-h-[256px] h-64">
               <ResponsiveContainer width="100%" height={256}>
-                <ScatterChart margin={{ top: 10, right: 20, left: 50, bottom: 24 }}>
+                <ScatterChart margin={{ top: 10, right: 20, left: 130, bottom: 24 }}>
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
                   <XAxis
                     type="number"
@@ -305,25 +352,48 @@ function App() {
                   <YAxis
                     type="number"
                     dataKey="y"
-                    domain={[-0.5, 2.5]}
-                    ticks={[0, 1, 2]}
-                    tickFormatter={(v) => ['Susan (1850)', 'GBIF Historical', 'GBIF Modern'][v] ?? ''}
+                    domain={[-0.5, 3.5]}
+                    ticks={[0, 1, 2, 3]}
+                    tickFormatter={(v) => ['Susan (1850)', 'GBIF Historical', 'GBIF Midcentury', 'GBIF Modern'][v] ?? ''}
                     tick={{ fontSize: 11 }}
                     width={120}
+                    interval={0}
                   />
                   <Tooltip
                     cursor={{ strokeDasharray: '3 3' }}
                     contentStyle={{ fontSize: 12 }}
-                    formatter={(val, name, props) => {
-                      if (name === 'day_of_year') return [`Day ${val}`, 'DOY']
-                      if (props.payload.label) return [props.payload.label, 'Quote']
-                      if (props.payload.year) return [props.payload.year, 'Year']
-                      return [val, name]
+                    content={({ active, payload }) => {
+                      if (!active || !payload?.length) return null
+                      const susanItems = payload.filter(p => p.payload?.source === 'Susan')
+                      const others = payload.filter(p => p.payload?.source !== 'Susan')
+                      const doy = payload[0]?.payload?.day_of_year
+                      return (
+                        <div style={{ padding: '4px 8px', minWidth: 140 }}>
+                          <div style={{ fontWeight: 600, marginBottom: 4 }}>Day {doy}</div>
+                          {susanItems.length > 0 && (
+                            <div style={{ marginBottom: 4 }}>
+                              <div style={{ fontSize: 10, color: '#6b7280', marginBottom: 2 }}>Susan</div>
+                              <div>{susanItems[0].payload.label}</div>
+                              {susanItems.length > 1 && (
+                                <div style={{ fontSize: 10, color: '#6b7280', marginTop: 2 }}>
+                                  +{susanItems.length - 1} more observation{susanItems.length > 2 ? 's' : ''}
+                                </div>
+                              )}
+                            </div>
+                          )}
+                          {others.map((p, i) => (
+                            <div key={i} style={{ fontSize: 10, color: '#6b7280' }}>
+                              {p.payload.source}: {p.payload.year || '—'}
+                            </div>
+                          ))}
+                        </div>
+                      )
                     }}
                   />
-                  <Legend />
+                  <Legend layout="horizontal" align="center" verticalAlign="bottom" wrapperStyle={{ paddingTop: 8 }} />
                   <Scatter name="Susan (1850)" data={phenologyData.susan} fill="#2C5530" shape="circle" />
                   <Scatter name="GBIF Historical" data={phenologyData.historical} fill="#c17f59" shape="circle" />
+                  <Scatter name="GBIF Midcentury" data={phenologyData.midcentury} fill="#a67c52" shape="circle" />
                   <Scatter name="GBIF Modern" data={phenologyData.modern} fill="#8b7355" shape="circle" />
                 </ScatterChart>
               </ResponsiveContainer>

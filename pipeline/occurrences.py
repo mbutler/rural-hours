@@ -2,6 +2,7 @@
 GBIF occurrence retrieval for Rural Hours pipeline.
 For each harmonized species, fetch occurrences in Otsego County, NY:
 - Historical (1840-1900) to corroborate Susan's observations
+- Midcentury (1900-1980) to bridge the gap
 - Modern (1980-present) for phenology comparison
 """
 import json
@@ -29,7 +30,11 @@ def fetch_occurrences_for_species(
     conn: sqlite3.Connection,
 ) -> None:
     """Fetch historical and modern occurrences, store in gbif_occurrences."""
-    for record_type, year_range in [("historical", "1840,1900"), ("modern", "1980,2025")]:
+    for record_type, year_range in [
+        ("historical", "1840,1900"),
+        ("midcentury", "1900,1980"),
+        ("modern", "1980,2025"),
+    ]:
         offset = 0
         limit = 300
         while True:

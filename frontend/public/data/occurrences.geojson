@@ -1406,6 +1406,44 @@
         "year": 2020,
         "record_type": "modern"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.617236,
+          42.408823
+        ]
+      },
+      "properties": {
+        "gbif_id": "1928222538",
+        "plant_name": "maple",
+        "scientific_name": "Acer saccharum",
+        "event_date": "1909-06-02",
+        "day_of_year": 153,
+        "year": 1909,
+        "record_type": "midcentury"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.617236,
+          42.408823
+        ]
+      },
+      "properties": {
+        "gbif_id": "1928443394",
+        "plant_name": "maple",
+        "scientific_name": "Acer saccharum",
+        "event_date": "1909-07-03/1909-07-10",
+        "day_of_year": 184,
+        "year": 1909,
+        "record_type": "midcentury"
+      }
     }
   ]
 }
